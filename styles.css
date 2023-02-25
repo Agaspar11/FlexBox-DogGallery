@@ -29,6 +29,10 @@ body {
     border-radius: 10px;
 }
 
+.gallery img::after {
+    content: "";
+}
+
 .header {
     text-align: center;
     text-transform: uppercase;
